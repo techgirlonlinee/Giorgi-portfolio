@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Wremena;
+  src: url(font/Wremena.ttf), url(font/Wremena.woff), url(font/Wremena.woff2);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  display: flex;
+  margin: 36px 40px;
+  position: fixed;
+  top: 0;
+}
+header .contact {
+  position: fixed;
+  right: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.intro-text {
+  font-family: Wremena;
+  line-height: 1.11;
+  font-size: 56px;
+  width: 78vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  cursor: default;
+  user-select: none;
+}
+
+.intro-text2 {
+  font-family: Wremena;
+  line-height: 1.11;
+  font-size: 56px;
+  width: 78vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.3;
+  cursor: default;
+  user-select: none;
+}
+
+.intro-text .about-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.intro-text2 .about-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.contact a:last-child {
+  margin-left: 18px;
+}
+
+div.first-project {
+  width: 45vw;
+  height: 60vh;
+  background-color: aqua;
+  margin-top: 80vh;
+  margin-left: 6.7%;
+  transition: all 0.5s ease;
+}
+
+div.first-project:hover,
+div.second-project:hover,
+div.third-project:hover,
+div.fourth-project:hover {
+  /* transform: translateX(-40px); */
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+div.first-project,
+div.second-project,
+div.third-project,
+div.fourth-project {
+  transition: all 0.5s ease;
+}
+
+div.second-project {
+  width: 65vw;
+  background-color: blue;
+  margin-top: 23vh;
+  margin-right: 6.7%;
+  margin-left: auto;
+}
+
+div.third-project {
+  background-color: aqua;
+  margin-top: 23vh;
+  margin-left: 6.7%;
+  width: 56.5vw;
+}
+
+div.third-project img,
+div.fourth-project img {
+  width: 100%;
+}
+
+div.fourth-project {
+  width: 76vw;
+  background-color: blue;
+  margin-top: 23vh;
+  margin-right: 6.7%;
+  margin-left: auto;
+  margin-bottom: 23vh;
+}

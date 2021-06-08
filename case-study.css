@@ -1,0 +1,208 @@
+@font-face {
+  font-family: Wremena;
+  src: url(font/Wremena.ttf), url(font/Wremena.woff), url(font/Wremena.woff2);
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #f4f4f4;
+  font-weight: 400;
+}
+
+header {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  display: flex;
+  margin: 36px 40px;
+  position: fixed;
+  top: 0;
+}
+header .contact {
+  position: fixed;
+  right: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.contact a:last-child {
+  margin-left: 18px;
+}
+
+h1 {
+  font-family: Wremena;
+  font-size: 118px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 12vh;
+}
+
+.hero,
+.slideshow {
+  width: 94.3vw;
+  display: flex;
+  margin: auto;
+  margin-bottom: 5vh;
+  margin-top: 6vh;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+section p {
+  line-height: 1.35;
+  letter-spacing: -1px;
+}
+
+section.project-intro,
+section.problem-concept,
+section.framework,
+section.art-direction {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: auto;
+}
+
+section.project-intro .intro-descript,
+section.problem-concept .intro-descript {
+  width: 26vw;
+}
+
+section.project-intro .intro-role-etc .client {
+  margin-top: 4vh;
+}
+
+div.line {
+  border-top: solid 1px black;
+  width: 94.3vw;
+  height: 1px;
+  margin: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+section.problem-concept .concept {
+  width: 35vw;
+}
+
+section.framework {
+  flex-direction: column;
+  margin-top: 12vh;
+  margin-bottom: 16vh;
+}
+
+h3 {
+  font-family: Wremena;
+  font-size: 72px;
+  margin-bottom: 3vh;
+}
+
+section.framework .part1,
+section.framework .part2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.framework-description {
+  width: 35vw;
+}
+
+.framework .text {
+  margin-left: 2vw;
+}
+
+section.framework .part2 {
+  margin-top: 4vh;
+}
+
+section.art-direction {
+  flex-direction: column;
+}
+
+section.art-direction h1 {
+  margin-bottom: 2vh;
+}
+section.art-direction .part1,
+section.art-direction .part2 {
+  display: flex;
+  flex-direction: row;
+}
+
+section.art-direction .part1 .text {
+  width: 54vw;
+  margin-left: 2vw;
+}
+
+section.art-direction .part2 {
+  flex-direction: row-reverse;
+  margin-top: 6vh;
+}
+
+section.art-direction .part2 .ad-description {
+  width: 24vw;
+  margin-right: 2vw;
+}
+
+.ad-description h4 {
+  font-family: Inter;
+  letter-spacing: -1px;
+  padding-bottom: 2px;
+  text-decoration: underline;
+  margin-bottom: 1vh;
+}
+
+h4.os-title {
+  margin-top: 2vh;
+}
+
+section.illustration .text {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin: auto;
+}
+
+.text-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-flex p {
+  width: 24vw;
+  margin-right: 2vw;
+}
+
+section.thanks {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin: auto;
+  margin-bottom: 8vh;
+}
+
+section.thanks .content {
+  display: flex;
+  flex-direction: row;
+}
+
+section.thanks .content div {
+  width: 24vw;
+  margin-right: 2vw;
+}
