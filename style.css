@@ -86,10 +86,7 @@ div.first-project {
   transition: all 0.5s ease;
 }
 
-div.first-project:hover,
-div.second-project:hover,
-div.third-project:hover,
-div.fourth-project:hover {
+.project:hover {
   /* transform: translateX(-40px); */
   transform: scale(1.1);
   transition: all 0.5s ease;
