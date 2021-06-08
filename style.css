@@ -79,8 +79,8 @@ a:hover {
 
 div.first-project {
   width: 45vw;
-  height: 60vh;
-  background-color: aqua;
+  /* height: 60vh; */
+  /* background-color: aqua; */
   margin-top: 80vh;
   margin-left: 6.7%;
   transition: all 0.5s ease;
@@ -104,14 +104,14 @@ div.fourth-project {
 
 div.second-project {
   width: 65vw;
-  background-color: blue;
+  /* background-color: blue; */
   margin-top: 23vh;
   margin-right: 6.7%;
   margin-left: auto;
 }
 
 div.third-project {
-  background-color: aqua;
+  /* background-color: aqua; */
   margin-top: 23vh;
   margin-left: 6.7%;
   width: 56.5vw;
@@ -124,7 +124,7 @@ div.fourth-project img {
 
 div.fourth-project {
   width: 76vw;
-  background-color: blue;
+  /* background-color: blue; */
   margin-top: 23vh;
   margin-right: 6.7%;
   margin-left: auto;

@@ -56,6 +56,10 @@ h1 {
   margin-top: 6vh;
 }
 
+.hero img {
+  height: auto;
+}
+
 h2 {
   text-transform: uppercase;
   font-family: Inter;
